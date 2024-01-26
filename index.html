@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Banners Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    
+        main {
+            padding: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+    
+        section {
+            margin-bottom: 30px;
+        }
+    
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .banner-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        .banner {
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+    
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block; /* Added display property */
+            overflow: hidden;
+        }
+        
+        .s_300x250 { width: 300px; height: 250px; }
+        .s_300x600 { width: 300px; height: 600px; }
+        .s_160x600 { width: 160px; height: 600px; }
+        .s_970x250 { width: 970px; height: 250px; }
+        .s_320x50 { width: 320px; height: 50px; }
+        .s_728x90 { width: 728px; height: 90px; }
+    
+        @media (max-width: 768px) {
+            .banner {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Takeda Psoriasis Banners Page</h1>
+    </header>
+
+    <main>
+        <!-- 300x250 Banners -->
+        
+        <section>
+            <h2>300x250 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_300x250" src="300x250/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x250" src="300x250/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x250" src="300x250/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x250" src="300x250/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x250" src="300x250/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x250" src="300x250/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+
+        <!-- 160x600 Banners -->
+        <section>
+            <h2>160x600 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_160x600" src="160x600/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_160x600" src="160x600/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_160x600" src="160x600/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_160x600" src="160x600/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_160x600" src="160x600/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_160x600" src="160x600/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+        
+        <!-- 300x600 Banners -->
+        <section>
+            <h2>300x600 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_300x600" src="300x600/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x600" src="300x600/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x600" src="300x600/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x600" src="300x600/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x600" src="300x600/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_300x600" src="300x600/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+        
+        <!-- 970x250 Banners -->
+        <section>
+            <h2>970x250 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_970x250" src="970x250/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_970x250" src="970x250/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_970x250" src="970x250/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_970x250" src="970x250/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_970x250" src="970x250/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_970x250" src="970x250/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+        
+        <!-- 728x90 Banners -->
+        <section>
+            <h2>728x90 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_728x90" src="728x90/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_728x90" src="728x90/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_728x90" src="728x90/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_728x90" src="728x90/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_728x90" src="728x90/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_728x90" src="728x90/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+        
+        <!-- 320x50 Banners -->
+        <section>
+            <h2>320x50 Banners</h2>
+            <div class="banner-container">
+                <div class="banner"><iframe class="s_320x50" src="320x50/female-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_320x50" src="320x50/female-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_320x50" src="320x50/female-can/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_320x50" src="320x50/male-spa/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_320x50" src="320x50/male-eng/index.html"></iframe></div>
+                <div class="banner"><iframe class="s_320x50" src="320x50/male-can/index.html"></iframe></div>
+            </div>
+        </section>
+        
+
+    </main>
+
+
+</body>
+</html>
